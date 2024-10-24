@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System </title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <h1 id="head">Student Registration System </h1>
+        <p>Welcome to Online Registration System. Enroll your details here:</p>
+    </header>
+
+    <!--student registration form-->
+    <br>
+    <form id="form">          
+        <label for="sname">Student Name:</label>
+        <input type="text" id="sname" name="firstname" required>
+            <br>
+        <label for="sid">Student ID:</label>
+        <input type="number" id="sid" name="stdid" required> 
+            <br>
+        <label for="email">Email:</label> 
+        <input type="email" id="email" autocomplete="on" required> 
+            <br>
+        <label for="no">Contact No:</label>
+        <input type="number" id="no" name="number" required>
+            <br><br>
+        <button class="submitbtn" id="btn">Submit</button>
+    </form><br><br>
+
+    <hr>
+
+    <h1>Registrated Students Details</h1>
+
+   
+    <table id="center">
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Email</th>
+            <th>Contact No</th>
+            <th>Edit / Delete</th>
+        </tr>
+    </table>
+
+
+    <br><br>
+    <script src="index.js"></script>
+  
+</body>
+</html>

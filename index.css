@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}   
+p{
+    text-align: center;
+}    
+/*form design*/
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    border: 5px brown solid;
+    padding: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.btn1{
+    background-color:beige;
+}
+input[type=text], [type=email], [type=number], [type=button] {
+    padding: 8px;
+    border-radius: 2px;
+    resize: vertical;
+}
+.submitbtn{
+    padding: 8px;
+    border-radius: 2px;
+    resize: vertical;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+#center {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+    empty-cells: hide;
+}
+th, td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+/*media query for small devices*/
+@media (max-width:1300px) and (min-width:600px){
+    #form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 30px;
+            border: 5px brown solid;
+            padding: 30px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+ }
+
+ @media (max-width:600px){
+    #form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 30px;
+            border: 5px brown solid;
+            padding: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+ }
